@@ -1,0 +1,63 @@
+{
+  "name": "sahra",
+  "version": "0.1.0",
+  "engines": {
+    "node": "13.2.0",
+    "npm": "6.14.3"
+  },
+  "private": false,
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "debug": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "iyzipay": "^2.0.48",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.5",
+    "mongoose-unique-validator": "^2.0.3",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.2",
+    "sass": "^1.26.10",
+    "stripe": "^8.54.0",
+    "validator": "^13.0.0"
+  },
+  "scripts": {
+    "build": "cd client && npm run build",
+    "install-client": "cd client && npm install",
+    "heroku-postbuild": "npm run install-client && npm run build",
+    "client": "cd client && npm start",
+    "start": "nodemon server.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ramekici/e-commercesahra.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ramekici/e-commercesahra/issues"
+  },
+  "homepage": "https://github.com/Ramekici/e-commercesahra#readme",
+  "description": ""
+}
