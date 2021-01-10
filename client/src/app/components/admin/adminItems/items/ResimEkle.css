@@ -1,0 +1,40 @@
+.cz-file-drop-area {
+    position: relative;
+    padding: 2rem 1rem;
+    transition: border-color 0.2s ease-in-out,box-shadow 0.2s ease-in-out;
+    border: 2px dashed #dae1e7;
+    background-color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.cz-file-drop-area .cz-file-drop-icon {
+    display: block;
+    margin-bottom: .75rem;
+    color: #aeb4be;
+    font-size: 1.625rem;
+}
+.czi-cloud-upload::before {
+    content: "\e923";
+}
+.cz-file-drop-area .cz-file-drop-message {
+    display: block;
+    font-size: .875rem;
+    margin-bottom: 1.25rem;
+}
+.cz-file-drop-area .cz-file-drop-input {
+    display: block;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    opacity: 1;
+    outline: none;
+    cursor: pointer;
+    z-index: 2;
+}
+.cz-file-drop-area .btn {
+    position: relative;
+    z-index: 3;
+}

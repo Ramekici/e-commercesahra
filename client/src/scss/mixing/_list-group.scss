@@ -1,0 +1,24 @@
+@import '../variables/variables';
+@import '../variables/variables-custom';
+@import './hover';
+
+@mixin list-group-item-variant($state, $background, $color) {
+    .list-group-item-#{$state} {
+      color: $color;
+      background-color: $background;
+  
+      &.list-group-item-action {
+        @include hover-focus {
+          color: $color;
+          background-color: darken($background, 5%);
+        }
+  
+        &.active {
+          color: $white;
+          background-color: $color;
+          border-color: $color;
+        }
+      }
+    }
+  }
+  

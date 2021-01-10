@@ -1,0 +1,30 @@
+.banner {
+    overflow: hidden;
+}
+
+.decoration[class*="-top"] {
+    background-position: center 50%;
+}
+.bg-purple {
+    background-color: #3B416B !important;
+}
+
+.decoration {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    opacity: .05;
+}
+
+.gutter-1 {
+    margin: -5px;
+} 
+
+@media (min-width: 768px) {
+   .gutter-md-4 {
+    margin: -20px;
+    } 
+}
